@@ -1,5 +1,6 @@
 import './Orders.css'
 import Header from '../components/Header.jsx'
+import { NavLink } from 'react-router'
 
 function Orders() {
     return (
@@ -53,11 +54,11 @@ function Orders() {
                             </div>
 
                             <div class="product-actions">
-                                <a href="/Tracking">
+                                <NavLink to="/Tracking">
                                     <button class="track-package-button button-secondary">
                                         Track package
                                     </button>
-                                </a>
+                                </NavLink>
                             </div>
 
                             <div class="product-image-container">
@@ -132,11 +133,11 @@ function Orders() {
                             </div>
 
                             <div class="product-actions">
-                                <a href="/Tracking">
+                                <NavLink to="/Tracking">
                                     <button class="track-package-button button-secondary">
                                         Track package
                                     </button>
-                                </a>
+                                </NavLink>
                             </div>
                         </div>
                     </div>

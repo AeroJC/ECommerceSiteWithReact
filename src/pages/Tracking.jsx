@@ -1,6 +1,6 @@
 import './Tracking.css'
 import Header from '../components/Header.jsx'
-import { Link } from 'react-router'
+import { NavLink } from 'react-router'
 
 function Tracking() {
 
@@ -11,9 +11,9 @@ function Tracking() {
 
             <div class="tracking-page">
                 <div class="order-tracking">
-                    <Link class="back-to-orders-link link-primary" to="/Orders">
+                    <NavLink class="back-to-orders-link link-primary" to="/Orders">
                         View all orders
-                    </Link>
+                    </NavLink>
 
                     <div class="delivery-date">
                         Arriving on Monday, June 13
